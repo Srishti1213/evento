@@ -1,4 +1,4 @@
-### Evento – Event Management Platform
+<h1 align="center">Evento – Event Management Platform</h1>
 
 A full-stack event management platform built during a hackathon to simplify how events are created, managed, and experienced. It brings organizers and users onto a single system with smooth workflows, real-time updates, and a clean, modern interface.
 
