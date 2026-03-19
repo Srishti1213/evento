@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registrations</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Manrope:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <p>Follow us:</p>
+  <div class="icons">
+    <i>📘</i>
+    <i>📸</i>
+    <i>❌</i>
+  </div>
+</div>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="logo">
+    <img src="logo.jpg" alt="EventHub Logo">
+  </div>
+
+  <nav>
+    <a href="index.html">Dashboard</a>
+    <a href="manage.html">Manage Events</a>
+    <a href="create.html">Create</a>
+    <a href="registration.html" class="active">Registrations</a>
+  </nav>
+
+  <div style="display:flex; gap:15px;">
+    <span>🔔</span>
+    <span>👤</span>
+  </div>
+</div>
+
+<!-- HEADER SECTION -->
+<div class="manage-header">
+
+  <h2>Registrations 📋</h2>
+
+  <div class="filters">
+    <input type="text" placeholder="Search user...">
+    
+    <select>
+      <option>All Types</option>
+      <option>Wedding</option>
+      <option>Party</option>
+      <option>Corporate</option>
+      <option>Festival</option>
+    </select>
+  </div>
+
+</div>
+
+<!-- TABLE -->
+<div class="table-container">
+<table class="table" id="registrationTable">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Event Type</th>
+      <th>Status</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+
+  <tbody id="regBody"></tbody>
+</table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

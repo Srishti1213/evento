@@ -1,0 +1,39 @@
+.reg-container {
+  padding: 26px;
+  max-width: 840px;
+  margin: 25px auto;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #dbe2f4;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
+}
+
+.reg-container h1 {
+  margin-top: 0;
+  color: #1f2937;
+}
+
+.reg-container a {
+  font-size: 0.95rem;
+  color: #3b82f6;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.reg-item {
+  border-bottom: 1px solid #e2e8f0;
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reg-item h3 {
+  margin: 0;
+  color: #1e293b;
+}
+
+.reg-item p {
+  margin: 0;
+  color: #475569;
+}

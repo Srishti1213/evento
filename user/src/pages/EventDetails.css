@@ -1,0 +1,38 @@
+.details-container {
+  padding: 26px;
+  max-width: 700px;
+  margin: 30px auto;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #dae4f4;
+  border-radius: 16px;
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.08);
+}
+
+.details-container h1 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: #1f2937;
+}
+
+.details-container p {
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.details-btn {
+  margin-top: 14px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+details-btn:disabled,
+.details-btn[disabled] {
+  background: #94a3b8;
+  cursor: not-allowed;
+}

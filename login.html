@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EventHub Login</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <p>Follow us:</p>
+  <div class="icons">
+    <i>📘</i>
+    <i>📸</i>
+    <i>❌</i>
+  </div>
+</div>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="logo">
+  <img src="logo.jpg" alt="Evento Logo">
+</div>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Events</a>
+    <a href="#">Contact</a>
+  </nav>
+</div>
+
+<!-- LOGIN -->
+<div class="login-container">
+
+  <div class="login-box">
+    <h2>Welcome Back 👋</h2>
+    <p>Login to manage your events</p>
+
+    <form id="loginForm">
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+
+      <button class="btn">Login</button>
+    </form>
+
+    <p class="link">
+      Don’t have account?
+      <a href="signup.html">Sign up</a>
+    </p>
+  </div>
+
+</div>
+
+<script>
+document.getElementById("loginForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  window.location.href = "index.html";
+});
+</script>
+
+</body>
+</html>

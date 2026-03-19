@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+
+<script>
+    const role = localStorage.getItem("role");
+
+    // Safety check
+    if (!role) {
+        window.location.href = "login.html";
+    } 
+    else if (role === "organizer") {
+        window.location.href = "manage.html";
+    } 
+    else {
+        window.location.href = "user/index.html";
+    }
+</script>
+
+</body>
+</html>

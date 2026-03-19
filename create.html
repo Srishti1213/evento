@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Event</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Manrope:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <p>Follow us:</p>
+  <div class="icons">
+    <i>📘</i>
+    <i>📸</i>
+    <i>❌</i>
+  </div>
+</div>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="logo">
+    <img src="logo.jpg" alt="EventHub Logo">
+  </div>
+
+  <nav>
+    <a href="index.html">Dashboard</a>
+    <a href="manage.html">Manage Events</a>
+    <a href="create.html" class="active">Create</a>
+    <a href="registration.html">Registrations</a>
+  </nav>
+
+  <div style="display:flex; gap:15px;">
+    <span>🔔</span>
+    <span>👤</span>
+  </div>
+</div>
+
+<!-- PAGE -->
+<div class="create-wrapper">
+
+  <div class="create-card">
+
+    <h2>Create New Event 🎉</h2>
+    <p class="subtext">Fill details to launch your event</p>
+
+    <form id="eventForm">
+
+      <div class="form-group">
+        <label>Event Title</label>
+        <input type="text" id="title" placeholder="Enter event name" required>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Date</label>
+          <input type="date" id="date" required>
+        </div>
+
+        <div class="form-group">
+          <label>Max Participants</label>
+          <input type="number" id="max" placeholder="100" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Event Type</label>
+        <select id="type" required>
+          <option value="">Select Event Type</option>
+          <option>Wedding</option>
+          <option>Party</option>
+          <option>Corporate</option>
+          <option>Festival</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Description</label>
+        <textarea id="desc" placeholder="Write about your event..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Event Image</label>
+        <input type="file" id="image">
+      </div>
+
+      <button type="submit" class="btn">Create Event 🚀</button>
+
+    </form>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

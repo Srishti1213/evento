@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <h2 class="brand">Evento</h2>
+
+  <div class="nav-links">
+    <a href="index.html">Dashboard</a>
+    <a href="manage.html">Manage Events</a>
+  </div>
+
+  <div>🔔 👤</div>
+</div>
+<!-- HERO SECTION -->
+<div class="hero">
+
+  <div class="hero-content">
+    <h1>Plan & Manage Events Effortlessly 🎉</h1>
+    <p>Create, track and manage your events in one powerful dashboard</p>
+
+    <a href="create.html" class="btn hero-btn">Create Event</a>
+  </div>
+
+</div>
+<!-- STATS -->
+<div class="stats">
+
+  <div class="card">
+    <p>Total Events</p>
+    <h2 id="totalEvents">0</h2>
+  </div>
+
+  <div class="card">
+    <p>Registrations</p>
+    <h2 id="totalRegistrations">0</h2>
+  </div>
+
+  <div class="card">
+    <p>Upcoming</p>
+    <h2 id="upcoming">0</h2>
+  </div>
+
+</div>
+
+<!-- CREATE BUTTON -->
+<div class="container">
+  <a href="create.html" class="btn">+ Create Event</a>
+</div>
+
+<!-- 🔥 EVENT STRIP (NEW) -->
+<div class="event-strip">
+  <div class="strip-track">
+
+    <img src="wedding.jpeg">
+    <img src="party.jpg">
+    <img src="concert.jpg">
+    <img src="corporate.jpg">
+    <img src="festival.jpg">
+    <img src="birthday.jpg">
+
+    <!-- duplicate -->
+    <img src="wedding.jpeg">
+    <img src="party.jpg">
+    <img src="concert.jpg">
+    <img src="corporate.jpg">
+    <img src="festival.jpg">
+    <img src="birthday.jpg">
+
+  </div>
+</div>
+
+<!-- EVENT LIST -->
+<div class="events" id="eventList"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
